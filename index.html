@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX_Homework</title>
+    <link rel="stylesheet" href="styles/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two:300,400,700" rel="stylesheet">
+</head>
+<body>
+<main class="main">
+    <header class="main__head">
+        Optional list
+    </header>
+    <div class="main__block">
+        <form action="/api/todo" method="post" name="todoForm" class="main__form">
+            <input type="hidden" name="forId">
+            <label for="inp" class="main__lab">
+                Title
+            </label>
+            <input type="text" id="inp" name="input" class="main__input">
+            <label for="area" class="main__lab">
+                Description
+            </label>
+            <textarea name="area" id="area" cols="30" rows="5" class="main__area"></textarea>
+            <div class="main__button">
+                <button class="main__btn" name="button">Submit</button>
+            </div>
+        </form>
+    </div>
+    <div class="main__block">
+        <table class="main__tab">
+            <tr>
+                <th class="main__td">Title</th>
+                <th class="main__td">Description</th>
+                <th class="main__td">Actions</th>
+            </tr>
+        </table>
+    </div>
+</main>
+
+<script src="js/main.js"></script>
+</body>
+</html>
