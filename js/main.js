@@ -143,9 +143,11 @@ function createBtn (element) {
         var button = document.createElement("button");
         button.type = button;
         button.setAttribute("data-target", element.id);
+        return button;
 }
 
 function createCell () {
     var cell = document.createElement("td");
     cell.setAttribute("class", "main__td");
+    return cell;
 }
