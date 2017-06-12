@@ -1,5 +1,5 @@
 body {
-  background: darkslategrey;
+  background: url("../images/bg.jpg");
 }
 .main {
   display: inline-block;
